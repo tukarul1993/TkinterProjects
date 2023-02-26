@@ -20,7 +20,7 @@ entry2.pack()
 # create a button to save the data to the SQL Server database
 def save_data():
     conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
-                          'SERVER=ITLNB619;'
+                          'SERVER=192.168.0.109,1433;'
                           'DATABASE=SSIS_Practice;'
                           'UID=sa;'
                           'PWD=admin@123')
@@ -45,7 +45,7 @@ def edit_data(row):
 # function to load the data from the SQL Server database and display it on the grid
 def load_data():
     conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
-                          'SERVER=ITLNB619;'
+                          'SERVER=192.168.0.109,1433;'
                           'DATABASE=SSIS_Practice;'
                           'UID=sa;'
                           'PWD=admin@123')
@@ -76,7 +76,7 @@ window.mainloop()
 # function to save the edited data back to the SQL Server database
 def save_edited_data():
     conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
-                          'SERVER=ITLNB619;'
+                          'SERVER=192.168.0.109;'
                           'DATABASE=SSIS_Practice;'
                           'UID=sa;'
                           'PWD=admin@123')

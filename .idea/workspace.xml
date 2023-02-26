@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ac3bcb-9654-435f-bc73-a7d985727f5b" name="Changes" comment="Added &quot;readAndValidateData_3.py&quot;&#10;to read and validate data on grid, as per provided data type. If invalid then highlight red.&#10;Save validated data into new CSV file">
+    <list default="true" id="45ac3bcb-9654-435f-bc73-a7d985727f5b" name="Changes" comment="added program to open the file dialog and browse csv file and import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TkInter2/readAndValidateData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TkInter2/readAndValidateData_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TkInter2/validated_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TkInter2/validated_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TkInter2/insertData.py" beforeDir="false" afterPath="$PROJECT_DIR$/TkInter2/insertData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +36,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.selectFileFromFolder">
-    <configuration name="ReadCSVandShowOnGrid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dataEntryForm">
+    <configuration name="dataEntry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TkinterProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,11 +45,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TkInter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataEntryForm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/ReadCSVandShowOnGrid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataEntryForm/dataEntry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readAndValidateData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataEntryForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TkinterProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TkInter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kivy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/readAndValidateData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kivy/dataEntryForm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readAndValidateData_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataEntryFormKivy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TkinterProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TkInter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kivy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/readAndValidateData_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kivy/dataEntryFormKivy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readAndValidateData_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataEntryForm_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TkinterProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TkInter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataEntryForm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/readAndValidateData_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataEntryForm/dataEntryForm_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selectFileFromFolder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insertUpdateDataOnGrid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TkinterProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/selectFileFromFolder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TkInter2/insertUpdateDataOnGrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.selectFileFromFolder" />
-        <item itemvalue="Python.readAndValidateData" />
-        <item itemvalue="Python.readAndValidateData_2" />
-        <item itemvalue="Python.readAndValidateData_3" />
-        <item itemvalue="Python.ReadCSVandShowOnGrid" />
+        <item itemvalue="Python.dataEntryForm" />
+        <item itemvalue="Python.dataEntryFormKivy" />
+        <item itemvalue="Python.insertUpdateDataOnGrid" />
+        <item itemvalue="Python.dataEntryForm_2" />
+        <item itemvalue="Python.dataEntry" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677073804311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added program to open the file dialog and browse csv file and import">
+      <created>1677090517229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677090517229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added &quot;readAndValidateData_3.py&quot;&#10;to read and validate data on grid, as per provided data type. If invalid then highlight red.&#10;Save validated data into new CSV file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;readAndValidateData_3.py&quot;&#10;to read and validate data on grid, as per provided data type. If invalid then highlight red.&#10;Save validated data into new CSV file" />
+    <MESSAGE value="added program to open the file dialog and browse csv file and import" />
+    <option name="LAST_COMMIT_MESSAGE" value="added program to open the file dialog and browse csv file and import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
